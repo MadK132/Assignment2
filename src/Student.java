@@ -22,7 +22,7 @@ public class Student extends Person implements Payable{
 
     @Override
     public String toString() {
-        return super.toString() + " GPA: " + getGpa();
+        return super.toString() + " earns " + getPaymentAmount() + " tenge";
     }
     public void enroll(Student student){
         students.add(student);
