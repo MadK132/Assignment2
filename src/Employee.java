@@ -36,7 +36,7 @@ public class Employee extends Person implements Payable{
     }
     @Override
     public String toString() {
-        return super.toString() + " " + "Salary: " + getSalary();
+        return super.toString() + " " + "earns " + getPaymentAmount() + " tenge";
     }
 
     @Override
