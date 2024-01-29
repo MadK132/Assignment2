@@ -13,9 +13,7 @@ public class Main {
         List.add(new Employee("Danial", "Smagulov", "Employer", 25000));
         List.add(new Employee("Madiyar","Kashkenov","Employer", 70000));
         Collections.sort(List);
-        for (Payable payable : List){
-            System.out.println(payable);
-        }
+        printData(List);
         }
     public void printData(Iterable<Person> List){
         for(Person person : List){
